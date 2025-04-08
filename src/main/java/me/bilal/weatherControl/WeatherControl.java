@@ -15,12 +15,14 @@ public final class WeatherControl extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
+
         getConfig().options().copyDefaults();
         saveDefaultConfig();
 
         getCommand("weather").setExecutor(new WeatherCommand(this));
         getCommand("weather").setTabCompleter(new WeatherTabCompletor());
         getCommand("weathergui").setExecutor(new WeatherGUICommand(this));
+
         Bukkit.getPluginManager().registerEvents(new ChangeTime(this), this);
         Bukkit.getPluginManager().registerEvents(new ChangeWeather(this), this);
         Bukkit.getPluginManager().registerEvents(new WeatherMain(this), this);

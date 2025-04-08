@@ -12,6 +12,7 @@ import org.bukkit.inventory.ItemStack;
 
 public class WeatherGUI {
 
+    //The main weather control GUI
     public static void openWeatherControl(Player player, WeatherControl plugin) {
         FileConfiguration config = plugin.getConfig();
 
@@ -39,6 +40,7 @@ public class WeatherGUI {
         player.openInventory(inventory);
     }
 
+    //Change weather GUI
     public static void openWeatherGUI(Player player, WeatherControl plugin) {
         FileConfiguration config = plugin.getConfig();
 
@@ -67,6 +69,7 @@ public class WeatherGUI {
         player.openInventory(inventory);
     }
 
+    //Change Time GUI
     public static void openTimeGUI(Player player, WeatherControl plugin) {
         FileConfiguration config = plugin.getConfig();
 
@@ -95,6 +98,7 @@ public class WeatherGUI {
         player.openInventory(inventory);
     }
 
+    //GUI to set custom 24hr time
     public static void openCustomTime(Player player) {
         Inventory inventory = Bukkit.createInventory(player, 9, "§cCustom Time");
 

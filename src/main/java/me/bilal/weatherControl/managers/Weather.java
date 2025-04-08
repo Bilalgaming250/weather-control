@@ -8,6 +8,7 @@ import org.bukkit.scheduler.BukkitRunnable;
 
 public class Weather {
 
+    // Function to set the time of the server smoothly
     private static void transitionTime(World world, int targetTime, WeatherControl plugin) {
         long currentTime = world.getTime();
         long difference = targetTime - currentTime;
@@ -36,7 +37,10 @@ public class Weather {
         World world = player.getWorld();
 
         switch (weather) {
-            case "rain" -> world.setStorm(true);
+            case "rain" -> {
+                world.setThundering(false);
+                world.setStorm(true);
+            }
             case "thunder" -> {
                 world.setStorm(true);
                 world.setThundering(true);
