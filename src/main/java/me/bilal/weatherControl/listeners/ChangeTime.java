@@ -1,7 +1,7 @@
-package me.bilal.weatherControl.Listeners;
+package me.bilal.weatherControl.listeners;
 
-import me.bilal.weatherControl.Utils.Weather;
-import me.bilal.weatherControl.Utils.WeatherGUI;
+import me.bilal.weatherControl.managers.Weather;
+import me.bilal.weatherControl.managers.WeatherGUI;
 import me.bilal.weatherControl.WeatherControl;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.Player;

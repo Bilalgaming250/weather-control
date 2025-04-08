@@ -1,10 +1,9 @@
-package me.bilal.weatherControl.Listeners;
+package me.bilal.weatherControl.listeners;
 
-import me.bilal.weatherControl.Utils.ItemBuilder;
-import me.bilal.weatherControl.Utils.Weather;
-import me.bilal.weatherControl.Utils.WeatherGUI;
+import me.bilal.weatherControl.utils.ItemBuilder;
+import me.bilal.weatherControl.managers.Weather;
+import me.bilal.weatherControl.managers.WeatherGUI;
 import me.bilal.weatherControl.WeatherControl;
-import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

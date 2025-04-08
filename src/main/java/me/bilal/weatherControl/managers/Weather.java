@@ -1,4 +1,4 @@
-package me.bilal.weatherControl.Utils;
+package me.bilal.weatherControl.managers;
 
 import me.bilal.weatherControl.WeatherControl;
 import org.bukkit.Bukkit;

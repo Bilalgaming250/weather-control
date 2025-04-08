@@ -1,12 +1,12 @@
 package me.bilal.weatherControl;
 
-import me.bilal.weatherControl.Commands.WeatherCommand;
-import me.bilal.weatherControl.Commands.WeatherGUICommand;
-import me.bilal.weatherControl.Commands.WeatherTabCompletor;
-import me.bilal.weatherControl.Listeners.ChangeTime;
-import me.bilal.weatherControl.Listeners.ChangeWeather;
-import me.bilal.weatherControl.Listeners.CustomTime;
-import me.bilal.weatherControl.Listeners.WeatherMain;
+import me.bilal.weatherControl.commands.WeatherCommand;
+import me.bilal.weatherControl.commands.WeatherGUICommand;
+import me.bilal.weatherControl.commands.WeatherTabCompletor;
+import me.bilal.weatherControl.listeners.ChangeTime;
+import me.bilal.weatherControl.listeners.ChangeWeather;
+import me.bilal.weatherControl.listeners.CustomTime;
+import me.bilal.weatherControl.listeners.WeatherMain;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 

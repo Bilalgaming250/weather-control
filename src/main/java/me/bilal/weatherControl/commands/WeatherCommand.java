@@ -1,6 +1,6 @@
-package me.bilal.weatherControl.Commands;
+package me.bilal.weatherControl.commands;
 
-import me.bilal.weatherControl.Utils.Weather;
+import me.bilal.weatherControl.managers.Weather;
 import me.bilal.weatherControl.WeatherControl;
 import org.bukkit.World;
 import org.bukkit.command.Command;

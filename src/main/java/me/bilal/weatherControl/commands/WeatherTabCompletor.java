@@ -1,4 +1,4 @@
-package me.bilal.weatherControl.Commands;
+package me.bilal.weatherControl.commands;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;

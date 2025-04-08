@@ -1,10 +1,8 @@
-package me.bilal.weatherControl.Utils;
+package me.bilal.weatherControl.utils;
 
-import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.inventory.meta.SkullMeta;
 
 public class ItemBuilder {
 
