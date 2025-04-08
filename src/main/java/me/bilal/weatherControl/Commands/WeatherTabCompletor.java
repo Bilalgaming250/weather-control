@@ -16,10 +16,12 @@ public class WeatherTabCompletor implements TabCompleter {
         if (args.length == 1) {
             return StringUtil.copyPartialMatches(args[0], Arrays.asList("clear", "rain", "thunder", "reset", "time"), new ArrayList<>());
         } else if (args.length == 2) {
-            if (args[1].equalsIgnoreCase("time")) {
-                List <String> list = Arrays.asList("day", "night");
+            if (args[0].equalsIgnoreCase("time")) {
+                List <String> list = new ArrayList<>();
 
-                for (int i = 0; i < 24; i++) {
+                list.add("day");
+                list.add("night");
+                for (int i = 0; i < 25; i++) {
                     list.add(Integer.toString(i));
                 }
 

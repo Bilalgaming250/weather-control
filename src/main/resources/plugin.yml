@@ -5,3 +5,5 @@ api-version: '1.21'
 commands:
   weather:
     permission: weathercontrol.admin
+  weathergui:
+    permission: weathercontrol.admin

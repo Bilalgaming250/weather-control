@@ -1,0 +1,32 @@
+MessagePrefix: "§7[§aWeather Control§7]"
+NoPermissionMessage: "§cYou do not have the permission to run this!"
+NotInOverworld: "§cYou are not in the overworld!"
+InvalidWeather: "§cInvalid Weather!"
+InvalidTime: "§cInvalid Time!"
+NotifyPlayers:
+  enabled: true
+  WeatherChange: "§aWeather has been changed!"
+  TimeChange: "§aTime has been changed!"
+WeatherControlGUI:
+  title: "§cWeather Control"
+  filler: "§8|"
+  changeWeather: "§cChange Weather"
+  changeTime: "§cChange Time"
+  resetWeatherTime: "§cReset"
+  closeMenu: "§cClose"
+WeatherGUI:
+  title: "§cChange Weather"
+  filler: "§8|"
+  rain: "§cRain"
+  thunder: "§cThunder"
+  clear: "§cClear"
+  backToMainPage: "§cGo Back"
+  closeMenu: "§cClose"
+TimeGUI:
+  title: "§cChange Time"
+  filler: "§8|"
+  day: "§cDay"
+  night: "§cNight"
+  custom: "§c[0-24]"
+  backToMainPage: "§cGo Back"
+  closeMenu: "§cClose"
